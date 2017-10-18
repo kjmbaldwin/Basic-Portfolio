@@ -5,9 +5,38 @@
     display: table;
 }
 
-h1, h2{
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	height: 100%;
+	margin: 0px;
+	background: url("../images/intersection.png");
+}
+
+
+h1{
 	font-family:  'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+}
+
+h2, h3{
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+
+h2{
+	font-size: 30px;
+	padding-left:10px;
+}
+
+h3{
+	font-size: 20px;
+	text-align:center;
 }
 
 p{
@@ -15,9 +44,6 @@ p{
 	color: #777777;
 }
 
-body{
-	margin: 0px;
-}
 
 a:link, a:visited{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -35,6 +61,13 @@ a:active, a:hover{
 	width: 960px;
 	margin: 0 auto;
 }
+
+.foot-wrap{
+	min-height: 100%;
+	margin-bottom: -78px;
+
+}
+
 
 header{
 /*	position: fixed;
@@ -57,15 +90,17 @@ header{
 	float:right;
 	padding: 30px;
 	margin: 0px;
+	color: #dddddd;
 }
 
 .content{
 	float: left;
 	width: 620px;
 	border: 1px solid #dddddd;
-	padding: 15px;
-	margin-top: 20px;
+	padding: 15px 15px 30px 15px;
+	margin: 20px 0 20px 0;
 	line-height: 24px;
+	background: #fff;
 
 }
 
@@ -73,13 +108,24 @@ header{
 	float: right;
 	width: 240px;
 	border: 1px solid #dddddd;
-	padding: 15px;
+	padding: 15px 15px 30px 15px;
 	margin-top: 20px;
+	background: #fff;
 }
 
+.center{
+	text-align: center;
+}
+
+.social-img{
+	width: 50px;
+	display: inline-block;
+}
+
+.foot-push{
+	height: 78px;
+}
 footer{
-	position: relative;
-	bottom: 0;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
 	text-align: center;
@@ -87,7 +133,10 @@ footer{
 	background: #666666;
 	border-top: 4px solid #4aaaa5;
 	padding: 30px;
-	margin-top: 20px;
+	/*margin-bottom: -78px;*/
+	/*height: 14px;*/
 }
+
+
 
 
