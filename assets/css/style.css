@@ -1,4 +1,3 @@
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -16,34 +15,38 @@ body{
 	background: url("../images/intersection.png");
 }
 
-
-h1{
-	font-family:  'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-}
-
-h2, h3{
+h1, h2, h3{
 	font-family:  'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #dddddd;
 }
 
+h1{
+	font-size: 2em;
+	margin: 0.7em 0;
+	font-weight: bolder;
+}
+
 h2{
-	font-size: 30px;
+	font-size:1.5em;
 	padding-left:10px;
+	margin: 0.83em 0;
+	font-weight: bold;
 }
 
 h3{
-	font-size: 20px;
+	font-size: 1.17em;
 	text-align:center;
+	margin: 1em 0;
+	font-weight: bold;
 }
 
 p{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	margin: 1em 0;
 }
-
 
 a:link, a:visited{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -62,17 +65,7 @@ a:active, a:hover{
 	margin: 0 auto;
 }
 
-.foot-wrap{
-	min-height: 100%;
-	margin-bottom: -78px;
-
-}
-
-
 header{
-/*	position: fixed;
-	top: 0;
-	left: 0;*/
 	background: #fff;
 	border-bottom: 2px solid #dddddd;
 }
@@ -101,7 +94,6 @@ header{
 	margin: 20px 0 20px 0;
 	line-height: 24px;
 	background: #fff;
-
 }
 
 .sidebar{
@@ -122,9 +114,15 @@ header{
 	display: inline-block;
 }
 
-.foot-push{
-	height: 78px;
+.foot-wrap{
+	min-height: 100%;
+	margin-bottom: -76px;
 }
+
+.foot-push{
+	height: 76px;
+}
+
 footer{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
@@ -133,10 +131,30 @@ footer{
 	background: #666666;
 	border-top: 4px solid #4aaaa5;
 	padding: 30px;
-	/*margin-bottom: -78px;*/
-	/*height: 14px;*/
 }
 
+#profile{
+	float: left;
+	width: 300px;
+	padding: 0px 10px 10px 0px;
+}
 
+.port-img{
+	float: left;
+	position: relative;
+	padding: 15px;
+}
 
-
+.banner{
+	position: absolute;
+	width: 290px;
+	bottom: 40px;
+	left: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: #fff;
+	padding: 15px 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
